@@ -17,9 +17,6 @@ The output of the script will be two data sets. One is called "data" which is a 
 The dataset includes the following files:
 
 - 'README.txt'
-
 - 'CodeBook.txt': Shows information about the variables used on the feature vector.
-
 - 'TidyData.txt': Tidy data set with features on the mean and standard deviation for each measurement.
-
 - 'TidyData_mean.txt': Tidy data set with the average of each variable for each activity and each subject.
