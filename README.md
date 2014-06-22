@@ -13,3 +13,13 @@ run_analysis.R will do the following:
 In order to run the script you need to put it in the same directory where UCI HAR Dataset is contained. So if the path to UCI HAR Dataset is C:\Data\UCI HAR Dataset, you may need to put run_analysis.R in C:\Data to make it work correctly.
 
 The output of the script will be two data sets. One is called "data" which is a tidy data set with features on the mean and standard deviation for each measurement. Another is called "data_mean" which is a tidy data set with the average of each variable for each activity and each subject.
+
+The dataset includes the following files:
+
+- 'README.txt'
+
+- 'CodeBook.txt': Shows information about the variables used on the feature vector.
+
+- 'TidyData.txt': Tidy data set with features on the mean and standard deviation for each measurement.
+
+- 'TidyData_mean.txt': Tidy data set with the average of each variable for each activity and each subject.
