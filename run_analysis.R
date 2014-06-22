@@ -12,5 +12,5 @@ features_filtered <- c(grep("mean\\(\\)|std\\(\\)",features),ncol(data) - 1,ncol
 data <- data[, features_filtered]
 activity_labels <- read.csv("./UCI HAR Dataset/activity_labels.txt", sep="", header=FALSE)[, 2]
 data[, ncol(data) - 1] = activity_labels[data[, ncol(data) - 1]]
-names(data) <- c(features, "activity_label", "subject_id")[features_filtered]
-data_mean <- aggregate(. ~ subject_id + activity_label, FUN=mean, data=data)
+names(data) <- c(features, "activity", "subjectid")[features_filtered]
+data_mean <- aggregate(. ~ subjectid + activity, FUN=mean, data=data)
